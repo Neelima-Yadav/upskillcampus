@@ -182,12 +182,6 @@ Through this project, I gained practical knowledge in:
 
 ---
 
-# 📸 Screenshots
-
-Screenshots are not available at the moment. They will be added in a future update to demonstrate the application's workflow and functionality.
-
----
-
 # 🚀 Future Enhancements
 
 - User Authentication
