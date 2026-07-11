@@ -1,57 +1,74 @@
-# 🍔 Food Delivery System
+<div align="center">
 
 # 🍔 Food Delivery System
 
-A modular **Food Delivery System** developed using **Python** and **SQLite** as part of my **Full Stack Web Development Internship**. The project simulates the core workflow of an online food ordering platform by implementing customer management, restaurant management, menu handling, shopping cart functionality, and order processing.
+### A Python-based Console Application for Managing Food Orders
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![SQLite](https://img.shields.io/badge/SQLite-Database-green?style=for-the-badge&logo=sqlite)
+![Git](https://img.shields.io/badge/Git-Version%20Control-orange?style=for-the-badge&logo=git)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+
+Developed as part of my **Full Stack Web Development Internship**
+
+</div>
 
 ---
 
-## 📌 About the Project
+# 📖 About The Project
 
-This application was developed to strengthen my understanding of backend application development using Python. It follows a modular architecture where each component is separated into individual modules, making the project easy to maintain and extend.
+The **Food Delivery System** is a modular Python application that simulates the workflow of an online food ordering platform.
 
-The system allows users to register customers, manage restaurants and menus, add food items to a shopping cart, place orders, and store all data using an SQLite database.
+It provides features for managing customers, restaurants, food menus, shopping carts, and order processing while demonstrating backend programming concepts using Python and SQLite.
 
----
-
-## ✨ Key Features
-
-- Customer Registration & Management
-- Restaurant Management
-- Food Menu Management
-- Shopping Cart
-- Order Placement
-- Order History
-- SQLite Database Integration
-- Modular Python Architecture
+This project helped me strengthen my understanding of database connectivity, modular programming, and software development practices.
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-| Category | Technology |
-|----------|------------|
-| Language | Python 3.11 |
-| Database | SQLite3 |
-| Framework | Flask |
-| Version Control | Git |
-| Repository | GitHub |
+✅ Customer Registration
+
+✅ Restaurant Management
+
+✅ Menu Management
+
+✅ Shopping Cart
+
+✅ Order Placement
+
+✅ Order History
+
+✅ SQLite Database
+
+✅ Modular Code Structure
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| Python 3.11 | Programming Language |
+| SQLite | Database |
+| Git | Version Control |
+| GitHub | Repository Hosting |
+
+---
+
+# 📂 Project Structure
 
 ```text
-FoodDeliverySystem/
+FoodDeliverySystem
 │
-├── app.py                 # Main application
-├── database.py            # Database connection & table creation
-├── customer.py            # Customer management
-├── restaurant.py          # Restaurant management
-├── menu.py                # Menu management
-├── cart.py                # Shopping cart
-├── order.py               # Order management
-├── utils.py               # Utility functions
+├── app.py
+├── customer.py
+├── restaurant.py
+├── menu.py
+├── cart.py
+├── order.py
+├── database.py
+├── utils.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -59,7 +76,7 @@ FoodDeliverySystem/
 
 ---
 
-## 🚀 Project Workflow
+# 🚀 Project Workflow
 
 ```text
 Customer Registration
@@ -74,7 +91,7 @@ Menu Management
 Shopping Cart
         │
         ▼
-Order Placement
+Place Order
         │
         ▼
 Order History
@@ -82,7 +99,7 @@ Order History
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Getting Started
 
 ### Clone the Repository
 
@@ -90,7 +107,7 @@ Order History
 git clone https://github.com/Neelima-Yadav/upskillcampus.git
 ```
 
-### Navigate to the Project
+### Go to Project Directory
 
 ```bash
 cd upskillcampus
@@ -102,7 +119,7 @@ cd upskillcampus
 pip install -r requirements.txt
 ```
 
-### Run the Application
+### Run the Project
 
 ```bash
 python app.py
@@ -110,66 +127,76 @@ python app.py
 
 ---
 
-## 💾 Database
+# 💾 Database
 
-The application uses **SQLite** for persistent data storage.
+SQLite is used as the backend database.
 
-The following tables are created automatically:
+The application stores information about:
 
 - Customers
 - Restaurants
-- Menu
+- Menu Items
 - Orders
 
 ---
 
-## 📚 Concepts Applied
+# 🎯 Learning Outcomes
+
+Through this project I learned:
 
 - Python Programming
-- Object-Oriented Programming (OOP)
-- Modular Programming
+- Object-Oriented Programming
 - SQLite Database Connectivity
 - CRUD Operations
-- Exception Handling
+- Modular Programming
 - Git & GitHub Workflow
+- Backend Development Fundamentals
 
 ---
 
-## 🎯 Learning Outcomes
+# 📸 Screenshots
 
-During the development of this project, I gained practical experience in:
+Add screenshots here.
 
-- Designing modular Python applications
-- Working with relational databases using SQLite
-- Implementing CRUD operations
-- Managing application data through database connectivity
-- Organizing projects using Git and GitHub
-- Building a complete backend application from scratch
+Example:
+
+```
+screenshots/
+│
+├── home.png
+├── customer.png
+├── restaurant.png
+├── menu.png
+├── cart.png
+└── orders.png
+```
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 - User Authentication
-- Admin Panel
-- Payment Gateway Integration
+- Payment Integration
 - Search Functionality
 - Delivery Tracking
-- REST API using Flask
-- Web-based User Interface
+- Admin Dashboard
+- Flask Web Version
+- REST API
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Neelima Cheemala**
 
 Full Stack Web Development Intern
 
-GitHub: **https://github.com/Neelima-Yadav**
+GitHub: https://github.com/Neelima-Yadav
 
 ---
 
-## ⭐ If you found this project useful
+<div align="center">
 
-If you like this project, consider giving it a **⭐ Star** on GitHub.
+### ⭐ If you like this project, don't forget to star the repository!
+
+</div>
